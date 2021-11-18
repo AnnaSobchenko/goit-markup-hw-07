@@ -1,4 +1,14 @@
-body {
-  background-color: lightblue;
-  border-color: tomato;
-}
+@import './utils/vars';
+@import './base/reset';
+@import './base/common';
+@import './components/container';
+@import './components/section';
+@import './layout/header';
+@import './layout/hero';
+@import './layout/peculiarities';
+@import './layout/works';
+@import './layout/command';
+@import './layout/clients';
+@import './layout/footer';
+@import './layout/portfolio';
+@import './components/modal';
